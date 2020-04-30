@@ -1,5 +1,5 @@
 {
-  "name": "word-frequency",
+  "name": "words-frequency",
   "version": "1.0.0",
   "description": "module/library to count number of words",
   "main": "index.js",

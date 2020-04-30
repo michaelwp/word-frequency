@@ -1,4 +1,4 @@
-const wordFrequency = (sentences) => {
+const wordsFrequency = (sentences) => {
     let newSentences;
     let sentencesGroup = {}
 
@@ -21,4 +21,4 @@ const wordFrequency = (sentences) => {
     return sentencesGroup;
 }
 
-module.exports = wordFrequency;
+module.exports = wordsFrequency;
