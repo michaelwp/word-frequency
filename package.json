@@ -1,0 +1,23 @@
+{
+  "name": "word-frequency",
+  "version": "1.0.0",
+  "description": "module/library to count number of words",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelwp/word-frequency.git"
+  },
+  "keywords": [
+    "words",
+    "frequency"
+  ],
+  "author": "michaelwp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelwp/word-frequency/issues"
+  },
+  "homepage": "https://github.com/michaelwp/word-frequency#readme"
+}
