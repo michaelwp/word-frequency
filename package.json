@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/michaelwp/word-frequency/issues"
   },
-  "homepage": "https://github.com/michaelwp/word-frequency#readme"
+  "homepage": "https://github.com/michaelwp/word-frequency#readme",
+  "dependencies": {
+    "words-frequency": "^1.0.0"
+  }
 }
