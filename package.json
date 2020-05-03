@@ -1,7 +1,7 @@
 {
   "name": "words-frequency",
   "version": "1.0.0",
-  "description": "module/library to count number of words",
+  "description": "simple module to calculate the frequency of words in a sentence",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"

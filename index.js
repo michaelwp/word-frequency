@@ -6,14 +6,17 @@ const wordsFrequency = (sentences) => {
   // #1 remove punctuation and split by space
   const newSentences = sentences
     .toLowerCase()
-    .match(/[a-zA-Z\']+/g)
+    .match(/[a-zA-Z]+/g)
     .sort();
 
   newSentences.forEach((e) => {
     !sentencesGroup[e] ? (sentencesGroup[e] = 1) : sentencesGroup[e]++;
   });
 
-  return sentencesGroup;
+  return {
+    total: newSentences.length,
+    data: sentencesGroup
+  };
 };
 
 module.exports = wordsFrequency;
