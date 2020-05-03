@@ -1,0 +1,26 @@
+{
+  "name": "words-frequency",
+  "version": "1.1.0",
+  "description": "simple module to calculate the frequency of words in a sentence",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelwp/word-frequency.git"
+  },
+  "keywords": [
+    "words",
+    "frequency"
+  ],
+  "author": "michaelwp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelwp/word-frequency/issues"
+  },
+  "homepage": "https://github.com/michaelwp/word-frequency#readme",
+  "dependencies": {
+    "words-frequency": "^1.0.0"
+  }
+}
