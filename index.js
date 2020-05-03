@@ -1,24 +1,19 @@
+"use strict";
+
 const wordsFrequency = (sentences) => {
-    let newSentences;
-    let sentencesGroup = {}
+  const sentencesGroup = {};
 
-    // #1 remove punctuation and split by space
-    newSentences = sentences.toLowerCase()
-                            .replace(/[^\w\s]|_/g, " ")
-                            .replace(/\s+/g, " ")
-                            .trim()
-                            .split(" ")
-                            .sort();
+  // #1 remove punctuation and split by space
+  const newSentences = sentences
+    .toLowerCase()
+    .match(/[a-zA-Z\']+/g)
+    .sort();
 
-    newSentences.forEach((e) => {
-        if (sentencesGroup[e] === undefined) {
-            sentencesGroup[e] = 1;
-        } else {
-            sentencesGroup[e]++;
-        }
-    })
+  newSentences.forEach((e) => {
+    !sentencesGroup[e] ? (sentencesGroup[e] = 1) : sentencesGroup[e]++;
+  });
 
-    return sentencesGroup;
-}
+  return sentencesGroup;
+};
 
 module.exports = wordsFrequency;
