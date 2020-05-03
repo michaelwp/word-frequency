@@ -7,6 +7,12 @@ module for helping to group and count number of words in a sentence
 Hello World :)
 ```
 
+* ##### v1.1.0 - minor changes
+```
+1. improve code
+2. Add total of words in result form
+```
+
 ## How To Use
 
 ``` npm i words-frequency --save ```
@@ -25,7 +31,9 @@ console.log(groupOfSentences);
 ### result :
 ```
 {
-    { a: 1,also: 1,and: 3,are: 1,
+    total: 91,
+    data : {
+      a: 1,also: 1,and: 3,are: 1,
       bar: 1,below: 1,by: 2,
       can: 1,capture: 1,cheatsheet: 1,com: 1,community: 1,create: 1,created: 1,custom: 1,
       describes: 1,details: 2,
@@ -45,6 +53,7 @@ console.log(groupOfSentences);
       temple: 1,tests: 1,text: 1,the: 5,to: 1,tools: 1,
       validate: 1,view: 1,
       was: 1,with: 3,
-      you: 2,your: 2 }
+      you: 2,your: 2 
+    }
 }
 ```
