@@ -20,7 +20,5 @@
     "url": "https://github.com/michaelwp/word-frequency/issues"
   },
   "homepage": "https://github.com/michaelwp/word-frequency#readme",
-  "dependencies": {
-    "words-frequency": "^1.0.0"
-  }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/@michaelwp" }
 }
